@@ -1,0 +1,45 @@
+To execute the pipeline from raw DNA sequencing to the selection of high-fitness neoantigens, you need a specialized bioinformatics stack. Below is the list of software and tools categorized by the stages you identified.
+
+1. Genomic Analysis & Variant Calling
+This stage requires high-performance alignment and statistical modeling to distinguish real mutations from sequencing artifacts.
+
+BWA-MEM / Bowtie2: Essential for aligning raw FASTQ sequencing reads to the reference human genome (h38).
+
+GATK (Genome Analysis Toolkit): Specifically Mutect2, which is the industry standard for somatic variant calling (comparing tumor vs. normal samples).
+
+Samtools / Picard: Critical utility tools for sorting, indexing, and cleaning up BAM files (removing duplicates).
+
+SnpEff / VEP (Variant Effect Predictor): Used for Annotation—determining if a mutation actually changes the amino acid sequence of a protein.
+
+Trimmomatic / Cutadapt: For pre-processing raw data to remove low-quality bases and adapter sequences.
+
+2. HLA Typing & Epitope Prediction
+This stage defines the patient's "immune signature" and predicts which mutated peptides will "stick" to their cellular surface.
+
+OptiType: Highly accurate tool for 4-digit HLA Type I calling using NGS data.
+
+HLA-HD: A robust alternative for comprehensive HLA typing (Class I and II).
+
+NetMHCpan (4.1 or later): The most widely used neural-network-based tool for predicting binding affinity between the peptide and the HLA molecule.
+
+MHCflurry: An open-source deep learning alternative that often provides competitive affinity and presentation predictions.
+
+3. Neoantigen Prioritization (The "Fitness" Model)
+This stage integrates all previous data to rank the "best" candidates for synthesis.
+
+pVACtools (pVACseq): A comprehensive suite that manages the workflow from variant calling to prioritized neoantigen lists. It integrates NetMHCpan results with gene expression data.
+
+Kallisto / Salmon: Used for RNA-Seq quantification. This is vital to ensure the mutation is actually being expressed by the tumor; a mutation that isn't transcribed into RNA cannot become a neoantigen.
+
+IEDB Analysis Resource: A collection of tools for predicting proteasomal cleavage and TAP transport (how the peptide moves through the cell).
+
+NeoPredPipe: An automated pipeline specifically designed to handle high-throughput neoantigen prediction from VCF files.
+
+Summary Software Environment
+To run this chain effectively, the following environment is typically used:
+
+Operating System: Linux (Ubuntu/CentOS) is mandatory for most bioinformatic tools.
+
+Containerization: Docker or Singularity is highly recommended because these tools have complex dependencies (Python, R, Java, and specific C++ libraries).
+
+Workflow Management: Snakemake or Nextflow to "glue" these individual steps together into an automated pipeline.

@@ -1,0 +1,16 @@
+PEPTIDE MARK I - PROCUREMENT GUIDE 2026
+CHEMICAL CATEGORY | ITEM | ESTIMATED COST | UNIT
+
+Common Amino Acid | FMOC-Glycine-OH | $45 - $60 | 100g
+
+Premium Amino Acid | FMOC-L-Tryptophan(Boc)-OH | $180 - $250 | 100g
+
+Primary Activator | HATU (Coupling Agent) | $350 - $500 | 100g
+
+Deblock Agent | Piperidine (Base) | $70 - $90 | 1L
+
+Main Wash Solvent | DMF (Dimethylformamide) | $65 - $80 | 4L
+
+Capping Agent | Acetic Anhydride | $55 - $75 | 500mL
+
+Cleavage Acid | TFA (Trifluoroacetic Acid) | $120 - $150 | 500mL

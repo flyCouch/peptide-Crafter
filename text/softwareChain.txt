@@ -1,0 +1,38 @@
+Software Chain: DNA to Neoantigen Production
+1. Genomic Analysis & Variant Calling
+The process begins by comparing the DNA of the patient’s tumor against their healthy tissue. Software identifies Somatic Mutations—changes unique to the cancer.
+
+Key Action: Filtering "noise" to find Single Nucleotide Variants (SNVs) and Indels.
+
+Software Role: Alignment (BWA-MEM), Variant Calling (GATK Mutect2), and Annotation.
+
+2. HLA Typing & Epitope Prediction
+Not every mutation is visible to the immune system. The software must predict which mutated proteins will be "presented" on the surface of the patient’s cells by their specific HLA (Human Leukocyte Antigen) type.
+
+Key Action: Determining the patient’s MHC/HLA alleles and predicting binding affinity.
+
+Software Role: HLA-HD or OptiType for typing; NetMHCpan or deep-learning models for binding prediction.
+
+
+Getty Images
+Explore
+3. Neoantigen Prioritization (The "Fitness" Model)
+The software ranks the predicted epitopes based on their likelihood of triggering a T-cell response. It looks for "Foreignness" (how different the mutation is from the "self") and "Abundance" (how prevalent the mutation is within the tumor).
+
+Key Action: Selecting the top 10–20 peptides to be synthesized.
+
+Software Role: Custom bioinformatic pipelines (e.g., pVACtools).
+
+4. Sequence-to-G-Code Translation (The Compiler)
+Once the peptide sequences are chosen, the software converts the amino acid requirements into a set of machine instructions.
+
+Key Action: Translating chemical synthesis steps (deblock, coupling, capping, oxidation) into coordinate movements and valve timings.
+
+Software Role: DNA/Peptide "Slicers" or custom Python compilers that generate G-Code for the printer's motion controller.
+
+5. Hardware Logic & Control (The "Boss/Worker" Protocol)
+The final stage is the real-time execution of the synthesis. The "Boss" software (High-level GUI) manages the job queue, while the "Worker" firmware handles the precision timing of the reagents.
+
+Key Action: Managing Argon PSI, valve switching (ms), and Z-axis strike depths to ensure environmentally sane and safe synthesis.
+
+Software Role: Python-based GUI (CustomTkinter) communicating via Serial/USB to a Microcontroller (GRBL/Marlin or custom C++ firmware).

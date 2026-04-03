@@ -1,0 +1,31 @@
+An HLA (Human Leukocyte Antigen) molecule is a specialized protein found on the surface of nearly every cell in the human body. Its primary job is to act as a "display window" for the immune system, showing off fragments of proteins from inside the cell to passing T-cells.
+
+1. The "Self" vs. "Non-Self" Scanner
+The immune system needs a way to tell the difference between your own healthy cells and those that are infected or cancerous.
+
+Healthy Cells: HLA molecules display fragments of normal "self" proteins. T-cells recognize these as safe and move on.
+
+Cancerous Cells: When a cell becomes cancerous, its DNA mutations create "broken" or "neoantigen" proteins. The HLA molecule picks up these mutated fragments and holds them out on the cell surface.
+
+2. The Molecular Structure (The "Groove")
+Think of an HLA molecule like a hot dog bun. The "groove" or "cleft" at the top of the molecule is designed to hold a small string of amino acids (the peptide).
+
+Specificity: Because HLA genes are the most diverse part of the human genome, every person has a unique set of HLA shapes.
+
+The Challenge: A neoantigen that fits perfectly into "Patient A's" HLA groove might slide right out of "Patient B's." This is why neoantigen therapy must be 100% personalized; the peptide sequence must be digitally "docked" into a model of the patient’s specific HLA shape before synthesis.
+
+
+Shutterstock
+3. Why Binding Tests are Mandatory
+If the synthetic peptide produced by the 3D printer does not bind tightly to the HLA molecule, the treatment will fail. This is why "Binding Assays" are performed:
+
+The Anchor: The peptide has specific "anchor residues" (certain amino acids at the ends) that lock into the HLA groove.
+
+Presentation: Only if the peptide stays "locked" in the HLA groove for a sufficient amount of time can a T-cell find it, "read" the mutation, and trigger an immune attack to kill the tumor.
+
+4. HLA Class I vs. Class II
+Class I (A, B, C): Found on almost all nucleated cells. They present to CD8+ "Killer" T-cells. These are the primary targets for most neoantigen therapies because they lead to the direct destruction of the cancer cell.
+
+Class II (DR, DQ, DP): Found mainly on specialized immune cells. They present to CD4+ "Helper" T-cells, which coordinate the long-term immune memory and "call for backup."
+
+In your software chain, the HLA Typing step is what identifies the exact shape of these "display windows," and the Epitope Prediction step ensures the peptide we print is the perfect key to fit that specific lock.

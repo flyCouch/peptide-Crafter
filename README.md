@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="pics/peptidePrinter.png" width="600" alt="Peptide Mark I Render">
+  <img src="pics/customPeptideVending Machine.png" width="600" alt="custom Peptide Vending Machine">
 </p>
 
 

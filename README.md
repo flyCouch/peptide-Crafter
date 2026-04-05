@@ -9,5 +9,5 @@
 
 
 <p align="center">
-  <img src="pics/peptidePrinter.png" width="600" alt="Peptide Mark I Render">
+  <img src="pics/customPeptideVending MachineLogo.png" width="600" alt="custom Peptide Vending Machine Logo">
 </p>

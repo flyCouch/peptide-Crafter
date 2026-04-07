@@ -1,0 +1,38 @@
+UNSW Newsroom (March 17, 2026): "Meet the man who designed a cancer vaccine for his dog"
+https://news.unsw.edu.au/en/meet-the-man-who-designed-a-cancer-vaccine-for-his-dog
+
+The Scientist (March 2026): "ChatGPT and AlphaFold Help Design Personalized Vaccine for Dog with Cancer."
+
+The "Worker" (Rotary Rig) Method: Uses Phosphoramidite Synthesis. You "type" the DNA chemically. It is "Sane" because it takes hours, not weeks, and fits on a desktop.
+
+2. CHEMICAL "PRINTING" (THE DNA TEMPLATE)
+Reagents (The 6 Bottles): 1.  A, T, C, G: The four genetic "letters" (Phosphoramidites).
+2.  Activator: The "glue" that makes the letters click together.
+/******************************************************************************
+ * CHEMICAL:  ACTIVATOR (e.g., 0.25M Tetrazole in Acetonitrile)
+ * ROLE:      Protonates the phosphoramidite to allow coupling.
+ * RATIO:     Typically 1:1 with the nucleotide base.
+ * SENSITIVITY: Highly sensitive to H2O (Moisture). 
+ * LOGIC:     Must be delivered simultaneously or immediately after the base.
+ ******************************************************************************/
+3.  Wash (Acetonitrile): The solvent that keeps the manifold and cylinder 100% pure between steps.
+
+The Process: * The Rotary Rig delivers a "Slug" of a specific base into the cylinder.
+
+The Activator ensures it bonds to the growing chain.
+
+The Soak period allows the chemical reaction to complete under 5 psi pressure.
+
+3. FROM DNA TO mRNA (IVT)
+The Conversion: Once the DNA template is "printed" on the rig, it undergoes In Vitro Transcription (IVT).
+
+The Enzyme: T7 RNA Polymerase acts like a high-speed photocopier. It reads your printed DNA and spits out the mRNA strands.
+
+The Envelope (LNPs): To make it "Safe," the mRNA must be wrapped in Lipid Nanoparticles (fats). This is the "Dangerous Biz" where precision mixing is a mechanical necessity to prevent the body from destroying the medicine.
+
+4. "GROWING" YOUR OWN (THE VISION)
+Decentralization: By "growing" the DNA chemically on a rotary rig, we remove the need for big pharma’s "One-Size-Fits-All" factories.
+
+Accuracy: Using the Venturi Slipstream and 3-Hole Optical Logic ensures the "Letters" are printed in the exact order required by the patient's tumor data (The FASTQ files).
+
+The Goal: Moving from "Brain-Loading" to a physical Validation Study where the "Worker" proves they can match the "Boss" sequence for a fraction of the cost.

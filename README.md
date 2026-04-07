@@ -1,3 +1,6 @@
+To automate the technician's job of vaccine/DNA/peptide crafting.
+
+
 <p align="center">
   <img src="pics/peptidePrinter.png" width="600" alt="Peptide Crafter Mark I Render">
 </p>

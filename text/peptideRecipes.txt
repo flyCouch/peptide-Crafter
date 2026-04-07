@@ -1,0 +1,44 @@
+======================================================================
+MARK I PEPTIDE LIBRARY v1.0
+======================================================================
+Format: [Name] | [Length] | [Sequence]
+----------------------------------------------------------------------
+
+GHK-Cu (Skin/Collagen)
+Length: 3
+Sequence: G-H-K
+
+Selank (Anxiety/Focus)
+Length: 7
+Sequence: T-K-P-R-P-G-P
+
+Semax (Nootropic/Brain)
+Length: 7
+Sequence: M-E-H-F-P-G-P
+
+BPC-157 (Body Protection Compound)
+Length: 15
+Sequence: G-E-P-P-P-G-K-P-A-D-D-A-G-L-V
+
+PT-141 (Bremelanotide - Mood)
+Length: 7
+Sequence: Ac-Nle-H-F-R-W-K-OH
+
+Thymosin Beta-4 (Systemic Repair)
+Length: 43
+Sequence: 
+S-D-K-P-D-M-A-E-I-E-K-F-D-K-S-K-L-K-K-T-E-T-Q-E-K-N-P-L-P-S-K-E-T-I-E-Q-E-K-Q-A-G-E-S
+
+======================================================================
+AA KEY: 
+G: Glycine    P: Proline    L: Leucine    Y: Tyrosine   V: Valine
+H: Histidine  K: Lysine     T: Threonine  R: Arginine   M: Methionine
+E: Glutamate  F: Phenylalanine            S: Serine     D: Aspartate
+A: Alanine    I: Isoleucine Q: Glutamine  N: Asparagine W: Tryptophan
+======================================================================
+
+SPECIALTY REAGENTS LIST:
+------------------------
+Nle : Norleucine (Required for PT-141)
+Ac  : Acetic Anhydride (For N-terminal Capping)
+Aib : Aminoisobutyric Acid (For certain "Super-Peptides")
